@@ -12,7 +12,6 @@ RUN chmod +x /start.sh
 
 COPY ./gunicorn_conf.py /gunicorn_conf.py
 
-COPY ./app /app
 WORKDIR /app/
 
 ENV PYTHONPATH=/app
